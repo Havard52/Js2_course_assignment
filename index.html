@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The social media plattform</title>
+    <title>TSM | HOME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d9245988cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/scss/styles.css">
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1>The social media plattform</h1></a>
+    <header class="container mt-2">
+        <div class="coulumn">
+            <a href="index.html"><h1>TSM</h1></a>
+        </div>
     </header>
     <main>
-        <form action="">
-            <div class="registerLoginContatiner">
-              <h1>Register</h1>
-              <label for="name">Name</label>
-              <input type="text" placeholder="Your name" name="name" id="name" required>     
-              <label for="email">E-mail</label>
-              <input type="text" placeholder="Your e-mail" name="email" id="email" required>
-              <label for="password">Password</label>
-              <input type="password" placeholder="Enter Password" name="password" id="password" required>
-              <button type="submit" class="submitBtn">Submit</button>
+        <section>
+
+        </section>
+        <section>
+        <form action="feed.html" class="container w-25">
+            <div class="column">
+              <h2 class="mt-5 mb-3">Register or login</h2>
+              <div class="d-flex flex-column">
+                <label for="name" >Name</label>
+                <input type="text" placeholder="Your name" name="name" id="name" required>     
+                <label for="email" class="mt-2">E-mail</label>
+                <input type="text" placeholder="Your e-mail" name="email" id="email" required>
+                <label for="password" class="mt-2">Password</label>
+                <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                <button type="submit" class="submitBtn mt-4">Submit</button>
+              </div>
             </div>
           </form>
-    </main>
-    
+        </section>
+    </main>   
 </body>
 <script src="/scripts.js"></script>
 </html>

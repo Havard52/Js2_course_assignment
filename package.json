@@ -1,0 +1,20 @@
+{
+  "name": "js2_course_assignment",
+  "version": "1.0.0",
+  "description": "course_assignment",
+  "main": "scripts.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.77.0"
+  }
+}

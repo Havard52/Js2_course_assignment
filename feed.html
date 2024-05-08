@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSM | FEED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d9245988cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/scss/styles.css">
+</head>
+<header>
+    <div class="container d-flex flex-row mt-2 mb-5 justify-content-between">
+    <a href="index.html"><h1>TSM</h1></a>
+        <input type="text" placeholder="Search">
+        <select name="Filter" id="Filter"> 
+            <option value="ID">Filter by id</option> 
+            <option value="user">Filter by user</option> 
+        </select>
+    </div>
+</header>
+    <body>
+        <section class="container">
+            <h2>Feed</h2>
+            <form action="POST" class="container d-flex flex-column w-50">
+                <h2>Share tour thougts today</h2>
+                <input type="text" placeholder="Title of your post" name="title" id="title" class="mt-2" required>
+                <i class="fa-solid fa-rectangle-xmark"></i>
+                <input type="textarea" placeholder="Content of your post" name="postContnet" id="postContnet" class="mt-4" required>      
+                <button type="submit" class="mt-4">Submit</button>
+            </form>
+            <div>
+                <div class="container d-flex flex-column w-50 mt-5">
+                    <div class="d-flex justify-content-between">
+                        <h2 class>Title</h2>
+                        <a href="">Username</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda nesciunt nobis magni cumque, ducimus ea dignissimos aspernatur tempore saepe. 
+                    Praesentium nisi mollitia architecto suscipit omnis corporis dolorum nesciunt beatae.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
